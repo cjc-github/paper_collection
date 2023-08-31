@@ -25,12 +25,148 @@
         "tools": ["发展", "Android"]
       },
       {
-        "title": "Android 恶意应用的静态检测方法综述",
+        "title": "Android恶意应用的静态检测方法综述",
         "journal": "计算机研究与发展",
         "author": "潘建文; 崔展齐; 林高毅; 陈翔; 郑丽伟",
         "year": 2023,
         "keywords": ["Android恶意应用", "静态检测"],
         "tools": [""]
-    } 
+    },
+    {
+      "title": "Android应用Activity启动环研究",
+      "journal": "计算机学报",
+      "author": "刘奥; 过辰楷; 王伟静; 候晓磊; 朱静雯; 张森; 许静",
+      "year": 2020,
+      "keywords": ["Android Launching cycle (ALC)", "启动图"],
+      "tools": [""]
+    },
+    {
+      "title": "面向对象程序的上下文敏感指针分析研究",
+      "journal": "软件学报",
+      "author": "李昊峰; 孟海宁; 郑恒杰; 曹立庆; 李炼",
+      "year": 2022,
+      "keywords": ["指针分析", "敏感性分析"],
+      "tools": [""]
+    },
+    {
+      "title": "污点分析技术的原理和实践应用",
+      "journal": "软件学报",
+      "author": "王蕾; 李丰; 李炼; 冯晓兵",
+      "year": 2017,
+      "keywords": ["信息流分析", "污点分析"],
+      "tools": [""]
+    },
+    {
+      "title": "面向Android生态系统中的第三方SDK安全性分析",
+      "journal": "软件学报",
+      "author": "马凯; 郭山清",
+      "year": 2018,
+      "keywords": ["第三方SDK", "Android"],
+      "tools": [""]
+    },
+    {
+      "title": "面向Android应用隐私泄露检测的多源污点分析技术",
+      "journal": "软件学报",
+      "author": "王蕾; 周卿; 何东杰; 李炼; 冯晓兵",
+      "year": 2019,
+      "keywords": ["污点分析", "静态分析"],
+      "tools": [""]
+    },
+    {
+      "title": "Android安全研究进展",
+      "journal": "软件学报",
+      "author": "卿斯汉",
+      "year": 2016,
+      "keywords": ["Android", "静态分析"],
+      "tools": [""]
+    },
+    {
+      "title": "安卓应用用户界面交互模式抽取与检索",
+      "journal": "软件学报",
+      "author": "吴俊伟; 沈立炜; 郭武楠; 王超; 赵文耘",
+      "year": 2018,
+      "keywords": ["Android", "静态分析"," GUI","交互"],
+      "tools": [""]
+    },
+    {
+      "title": "安卓应用用户界面交互模式抽取与检索",
+      "journal": "软件学报",
+      "author": "吴俊伟; 沈立炜; 郭武楠; 王超; 赵文耘",
+      "year": 2018,
+      "keywords": ["Android", "静态分析"," GUI","交互"],
+      "tools": [""]
+    },
+    {
+      "title": "使用共享变量分析和约束求解检测安卓应用数据竞争",
+      "journal": "软件学报",
+      "author": "孙全; 徐蕾; 夏昕濛; 张卫丰",
+      "year": 2019,
+      "keywords": ["Android", "静态分析"," GUI","交互"],
+      "tools": ["RaceDetector"]
+    },
+    {
+      "title": "面向安卓应用建模的IFML扩展",
+      "journal": "软件学报",
+      "author": "陆一飞; 潘敏学; 张天; 王林章; 李宣东",
+      "year": 2019,
+      "keywords": ["Android"," 基于模型的测试"],
+      "tools": [""]
+    },
+    {
+      "title": "程序分析研究进展",
+      "journal": "软件学报",
+      "author": "张健; 张超; 玄跻峰; 熊英飞; 王千祥;  梁彬;  李炼; 窦文生; 陈振邦; 陈立前; 蔡 彦",
+      "year": 2019,
+      "keywords": ["程序分析", "静态分析"," 程序分析"],
+      "tools": [""]
+    },
+    {
+      "title": "一种基于录制/重放的Android应用众包测试方法",
+      "journal": "软件学报",
+      "author": "曹羽中; 吴国全; 陈伟; 魏峻; 黄涛; 王溯",
+      "year": 2020,
+      "keywords": ["录制", "自动化测试"," 碎片化"],
+      "tools": [""]
+    },
+    {
+      "title": "基于污染变量关系图的Android应用污点分析工具",
+      "journal": "软件学报",
+      "author": "张捷; 田聪; 段振华",
+      "year": 2021,
+      "keywords": ["静态分析", "污点分析","Android","污点变量关系图"],
+      "tools": ["FastDroid"]
+    },
+    {
+      "title": "基于GUI事件的安卓应用录制重放关键技术综述",
+      "journal": "软件学报",
+      "author": "李聪; 蒋炎岩; 许畅",
+      "year": 2022,
+      "keywords": ["GUI", "录制重放","Android","自动化测试"],
+      "tools": [""]
+    },
+    {
+      "title": "面向安卓自动化测试工具综合评估",
+      "journal": "软件学报",
+      "author": "钟怡; 石孟雨; 房春荣; 赵志宏; 陈振宇",
+      "year": 2023,
+      "keywords": ["GUI测试", "自动化测试","综述"],
+      "tools": ["CEAT"]
+    },
+    {
+      "title": "多层次的Android系统权限控制方法",
+      "journal": "软件学报",
+      "author": "罗杨; 张齐勋; 沈晴霓; 刘宏志; 吴中海",
+      "year": 2015,
+      "keywords": ["权限管理", "安全策略","SELinux"],
+      "tools": [""]
+    },
+    {
+      "title": "一种随机剔除点的安卓图形解锁方案",
+      "journal": "软件学报",
+      "author": "熊思纯; 杨超; 马建峰; 张俊伟",
+      "year": 2017,
+      "keywords": ["图形密码", "安全性分析","Android"],
+      "tools": [""]
+    }
   ]
 }

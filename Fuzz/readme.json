@@ -15,6 +15,14 @@
         "year": 2023,
         "keywords": ["模糊测试", "插桩","源码插桩"],
         "tools": [""]
+      },
+      {
+        "title": "TaintPoint:使用活跃轨迹高效挖掘污点风格漏洞",
+        "journal": "软件学报",
+        "author": "方浩然; 郭 帆; 李航宇",
+        "year": 2022,
+        "keywords": ["静态分析", "模糊测试","污点分析"],
+        "tools": ["FastDroid"]
       }
   ]
 }
