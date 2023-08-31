@@ -1,0 +1,36 @@
+{
+    "papers": [
+      {
+        "title": "使用敏感路径识别方法分析安卓应用安全性",
+        "journal": "软件学报",
+        "author": "缪小川; 汪 睿; 许蕾; 张卫丰; 徐宝文",
+        "year": 2017,
+        "keywords": ["Intent ", "敏感路径"],
+        "tools": [""]
+      },
+      {
+        "title": "Fine-grained Code Coverage Measurement in Automated Black-box Android Testing",
+        "journal": "TOSEM",
+        "author": "Aleksandr Pilgun; Olga Gadyatskaya; Stanislav Dashevskyi; Yury Zhauniarovich; Artsiom Kushniarou",
+        "year": 2020,
+        "keywords": ["代码覆盖率", "插桩","Android app"],
+        "tools": ["ACVTool"]
+      },
+      {
+        "title": "Android安全研究进展",
+        "journal": "软件学报",
+        "author": "缪小川; 汪 睿; 许蕾; 张卫丰; 徐宝文",
+        "year": 2016,
+        "keywords": ["Android安全"],
+        "tools": ["发展", "Android"]
+      },
+      {
+        "title": "Android 恶意应用的静态检测方法综述",
+        "journal": "计算机研究与发展",
+        "author": "潘建文; 崔展齐; 林高毅; 陈翔; 郑丽伟",
+        "year": 2023,
+        "keywords": ["Android恶意应用", "静态检测"],
+        "tools": [""]
+    } 
+  ]
+}

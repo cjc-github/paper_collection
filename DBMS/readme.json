@@ -1,0 +1,148 @@
+{
+    "papers": [
+      {
+        "title": "Finding Bugs in Database Systems via Query Partitioning",
+        "journal": "OOPSLA",
+        "author": "MANUEL RIGGER; ZHENDONG SU",
+        "year": 2020,
+        "keywords": ["MySQL", "TiDB", "SQLite", "CockroachDB","TLP"],
+        "tools": ["sqlancer","TLP"]
+      },
+      {
+        "title": "Industry Practice of Coverage-Guided Enterprise-Level DBMS Fuzzing",
+        "journal": "ICSE-SEIP",
+        "author": "Mingzhe Wang; Zhiyong Wu; Xinyi Xu; Jie Liang; Chijin Zhou; Huafeng Zhang; Yu Jiang",
+        "year": 2021,
+        "keywords": ["DBMS", "GaussDB","PostgreSQL","Comdb2"],
+        "tools": ["RATEL"]
+      },
+      {
+        "title": "Griffin Grammar-Free DBMS Fuzzing",
+        "journal": "ASE",
+        "author": "Jingzhou Fu; Jie Liang; Zhiyong Wu; Mingzhe Wang; Yu Jiang",
+        "year": 2022,
+        "keywords": ["DBMS", "MariaDB","SQLite","PostgreSQL","DuckDB"],
+        "tools": ["Griffin"]
+      },
+      {
+        "title": "Sequence-Oriented DBMS Fuzzing",
+        "journal": "ICDE",
+        "author": "Jie Liang; Yaoguang Chen; Zhiyong Wu; Jingzhou Fu; Mingzhe Wang; Yu Jiang; Xiangdong Huang; Ting Chen; Jiashui Wang; Jiajia Li",
+        "year": 2023,
+        "keywords": ["DBMS", "PostgreSQL","MySQL","MariaDB","Comdb2"],
+        "tools": ["LEGO"]
+      },
+      {
+        "title": "Automatic Detection of Performance Bugs in Database Systems using Equivalent Queries",
+        "journal": "ICSE",
+        "author": "Xinyu Liu; Qi Zhou; Joy Arulraj; Alessandro Orso",
+        "year": 2022,
+        "keywords": ["DBMS", "PostgreSQL","CockroachDB","性能问题"],
+        "tools": ["AMOEBA"]
+      },
+      {
+        "title": "Detecting Isolation Bugs via Transaction Oracle Construction",
+        "journal": "ICSE",
+        "author": "Wensheng Dou; Ziyu Cui; Qianwang Dai; Jiansen Song; Dong Wang; Yu Gao; Wei Wang; Jun Wei; Lei Chen; Hanmo Wang; Hua Zhong; Tao Huang",
+        "year": 2023,
+        "keywords": ["DBMS", "MySQL","MariaDB","TiDB"],
+        "tools": ["Troc"]
+      },
+      {
+        "title": "Testing Database Engines via Query Plan Guidance",
+        "journal": "ICSE",
+        "author": "Jinsheng Ba; Manuel Rigger",
+        "year": 2023,
+        "keywords": ["DBMS", "SQLite","CockroachDB","TiDB"],
+        "tools": ["QPG"]
+      },
+      {
+        "title": "Testing Database Engines via Pivoted Query Synthesis",
+        "journal": "OSDI",
+        "author": "Manuel Rigger; Zhendong Su",
+        "year": 2020,
+        "keywords": ["DBMS", "MySQL","SQLite","PostgreSQL"],
+        "tools": ["pivot row (PQS) sqlancer"]
+      },
+      {
+        "title": "Detecting Transactional Bugs in Database Engines via Graph-Based Oracle Construction",
+        "journal": "OSDI",
+        "author": "Zu-Ming Jiang; Si Liu; Manuel Rigger; Zhendong Su",
+        "year": 2023,
+        "keywords": ["DBMS", "MySQL","TiDB","MariaDB"],
+        "tools": ["TxCheck"]
+      },
+      {
+        "title": "Detecting Optimization Bugs in Database Engines via Non-optimizing Reference Engine Construction",
+        "journal": "ESEC/FSE",
+        "author": "Manuel Rigger; Zhendong Su",
+        "year": 2020,
+        "keywords": ["DBMS", "PostgreSQL","MariaDB","SQLite","CockroachDB"],
+        "tools": ["Non-optimizing Reference Engine Construction (NoREC) sqlancer"]
+      },
+      {
+        "title": "APOLLO: Automatic Detection and Diagnosis of Performance Regressions in Database Systems",
+        "journal": "PVLDB",
+        "author": "Jinho Jung; Hong Hu; Joy Arulraj; Taesoo Kim; Woonhak Kang",
+        "year": 2019,
+        "keywords": ["DBMS"],
+        "tools": ["APOLLO"]
+      },
+      {
+        "title": "Squirrel: Testing Database Management Systems with Language Validity and Coverage Feedback",
+        "journal": "CCS",
+        "author": "Rui Zhong; Yongheng Chen; Hong Hu; Hangfan Zhang; Wenke Lee; Dinghao Wu",
+        "year": 2020,
+        "keywords": ["DBMS","MySQL","PostgreSQL","MariaDB","SQLite"],
+        "tools": ["Squirrel"]
+      },
+      {
+        "title": "Squill: Testing DBMS with Correctness Feedback and Accurate Instantiation",
+        "journal": "MDPI",
+        "author": "Rui Zhong; Yongheng Chen; Hong Hu; Hangfan Zhang; Wenke Lee; Dinghao Wu",
+        "year": 2023,
+        "keywords": ["DBMS","MySQL","OceanBase","MariaDB"],
+        "tools": ["Squill"]
+      },
+      {
+        "title": "Pinolo: Detecting Logical Bugs in Database Management Systems with Approximate Query Synthesis",
+        "journal": "USENIX",
+        "author": "Zongyin Hao; Quanfeng Huang;  Chengpeng Wang;  Jianfeng Wang;  Yushan Zhang4; Rongxin Wu1; Charles Zhang",
+        "year": 2023,
+        "keywords": ["DBMS","MySQL","OceanBase","MariaDB","TiDB"],
+        "tools": ["Pinolo"]
+      },
+      {
+        "title": "Detecting Logical Bugs of DBMS with Coverage-based Guidance",
+        "journal": "USENIX",
+        "author": "Yu Liang; Song Liu; Hong Hu",
+        "year": 2022,
+        "keywords": ["DBMS","MySQL","SQLite"],
+        "tools": ["SQLRight"]
+      },
+      {
+        "title": "DynSQL: Stateful Fuzzing for Database Management Systems with Complex and Valid SQL Query Generation",
+        "journal": "USENIX",
+        "author": "Zu-Ming Jiang; Jia-Ju Bai; Zhendong Su",
+        "year": 2023,
+        "keywords": ["DBMS","MySQL","SQLite","MariaDB","PostgreSQL","MonetDB","ClickHouse"],
+        "tools": ["DynSQL"]
+      },
+      {
+        "title": "Optimization Research on Initial Seeds of the Database Management Systems Fuzzing Framework Squirrel",
+        "journal": "JPCS Journal of Physics: Conference Series",
+        "author": "Manning Song",
+        "year": 2021,
+        "keywords": ["DBMS","SQLite","PostgreSQL"],
+        "tools": ["AGD"]
+      },
+      {
+        "title": "Finding Performance Issues in Database Engines via Cardinality Estimation Testing",
+        "journal": "arxiv",
+        "author": "Jinsheng Ba; Manuel Rigger",
+        "year": 2023,
+        "keywords": ["DBMS","SQLite","TiDB","CockroachDB"],
+        "tools": ["CERT","sqlancer"]
+      }
+  ]
+}
