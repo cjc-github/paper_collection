@@ -167,6 +167,22 @@
       "year": 2017,
       "keywords": ["图形密码", "安全性分析","Android"],
       "tools": [""]
+    },
+    {
+      "title": "Vulnerability discovery in Android System through fuzzing",
+      "journal": "Master thesis",
+      "author": "Athanasios Oikonomou",
+      "year": 2023,
+      "keywords": ["Vulnerability", "Fuzzing","Android"],
+      "tools": [""]
+    },
+    {
+      "title": "Mobile Application Security Testing Guide v1.6.0",
+      "journal": "Technical document",
+      "author": "OWASP",
+      "year": 2023,
+      "keywords": ["Vulnerability", "Fuzzing","Android","Mobile applications"],
+      "tools": [""]
     }
   ]
 }
