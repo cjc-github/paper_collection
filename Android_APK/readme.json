@@ -183,6 +183,86 @@
       "year": 2023,
       "keywords": ["Vulnerability", "Fuzzing","Android","Mobile applications"],
       "tools": [""]
+    },
+    {
+      "title": "Amandroid: A Precise and General Inter-component Data Flow Analysis Framework for Security Vetting of Android Apps",
+      "journal": "CCS",
+      "author": "Fengguo Wei; Sankardas Roy; Xinming Ou; Robby",
+      "year": 2014,
+      "keywords": ["taint analysis","污点分析","static analysis","静态分析","Android app","ICC","Intent"],
+      "tools": ["Amandroid","ICC-BENCH"]
+    },
+    {
+      "title": "Amandroid: A Precise and General Inter-component Data Flow Analysis Framework for Security Vetting of Android Apps",
+      "journal": "TOPS",
+      "author": "Fengguo Wei; Sankardas Roy; Xinming Ou; Robby",
+      "year": 2018,
+      "keywords": ["taint analysis","污点分析","static analysis","静态分析","Android app","ICC","Intent"],
+      "tools": ["Amandroid","ICC-BENCH"]
+    },
+    {
+      "title": "Analyzing the Analyzers: FlowDroid/IccTA, AmanDroid, and DroidSafe",
+      "journal": "ISSTA",
+      "author": "Lina Qiu; Yingying Wang; Julia Rubin",
+      "year": 2018,
+      "keywords": ["taint analysis","污点分析","static analysis tools","静态分析工具","Android app","工具对比"],
+      "tools": [""]
+    },
+    {
+      "title": "Analyzing Android Taint Analysis Tools: FlowDroid, Amandroid, and DroidSafe",
+      "journal": "TSE",
+      "author": "Junbin Zhang; Yingying wang; Lina Qiu; Julia Rubin",
+      "year": 2021,
+      "keywords": ["taint analysis","污点分析","static analysis tools","静态分析工具","Android app","工具对比"],
+      "tools": [""]
+    },
+    {
+      "title": "Collusive Data Leak and More: Large-scale Threat Analysis of Inter-app Communications",
+      "journal": "ASIA CCS",
+      "author": "Amiangshu Bosu; Fang Liu; Danfeng (Daphne) Yao; Gang Wang",
+      "year": 2017,
+      "keywords": ["taint analysis","污点分析","static analysis tools","Android app","Intent"],
+      "tools": ["DIALDROID","DIALDROID-Bench"]
+    },
+    {
+      "title": "Reflection-Aware Static Analysis of Android Apps",
+      "journal": "ASE",
+      "author": "Li Li; Tegawendé F. Bissyandé; Damien Octeau; Jacques Klein",
+      "year": 2016,
+      "keywords": ["taint analysis","污点分析","static analysis tools","反射","Reflection","Android"],
+      "tools": ["DROIDRA"]
+    },
+    {
+      "title": "DroidRA: Taming Reflection to Support Whole-Program Analysis of Android Apps",
+      "journal": "ISSTA",
+      "author": "Li Li; Tegawendé F. Bissyandé; Damien Octeau; Jacques Klein",
+      "year": 2016,
+      "keywords": ["taint analysis","污点分析","static analysis tools","反射","Reflection","Android"],
+      "tools": ["DROIDRA"]
+    },
+    {
+      "title": "Information-Flow Analysis of Android Applications in DroidSafe",
+      "journal": "NDSS",
+      "author": "Michael I. Gordon; Deokhwan Kim; Jeff Perkins; Limei Gilham; Nguyen Nguyen; and Martin Rinard",
+      "year": 2015,
+      "keywords": ["taint analysis","污点分析","static analysis tools","Android app"],
+      "tools": ["DroidSafe"]
+    },
+    {
+      "title": "Challenges of native android applications: obfuscation and vulnerabilities",
+      "journal": "Technical document",
+      "author": "HAL open science",
+      "year": 2021,
+      "keywords": ["taint analysis","Android native","OAT","DEX"],
+      "tools": [""]
+    },
+    {
+      "title": "When Program Analysis Meets Bytecode Search: Targeted and Efficient Inter-procedural Analysis of Modern Android Apps in BackDroid",
+      "journal": "DSN",
+      "author": "Daoyuan Wu; Debin Gao; Robert H. Deng; Rocky K. C. Chang",
+      "year": 2021,
+      "keywords": ["taint analysis","Android static analysis","ICC"],
+      "tools": ["BackDroid"]
     }
   ]
 }
