@@ -351,6 +351,111 @@
       "year": 2022,
       "keywords": ["Intent","ICC","taint analysis","Android app","native code","static analysis"],
       "tools": ["JuCify"]
+    },
+    {
+      "title": "Meizodon: Security Benchmarking Framework for Static Android Malware Detectors",
+      "journal": "CECC",
+      "author": "Sebastiaan Alvarez Rodriguez; Erik van der Kouwe",
+      "year": 2019,
+      "keywords": ["taint analysis","Android app","工具对比","static analysis"],
+      "tools": ["Meizodon"]
+    },
+    {
+      "title": "Do Android Taint Analysis Tools Keep Their Promises?",
+      "journal": "ESEC/FSE",
+      "author": "Felix Pauck; Eric Bodden; Heike Wehrheim",
+      "year": 2018,
+      "keywords": ["taint analysis","Android app","工具对比","static analysis"],
+      "tools": ["ReproDroid"]
+    },
+    {
+      "title": "Ripple: Reflection Analysis for Android Apps in Incomplete Information Environments",
+      "journal": "CODASPY",
+      "author": "Yifei Zhang; Tian Tan; Yue Li; Jingling Xue",
+      "year": 2017,
+      "keywords": ["taint analysis","Android app","Reflection","static analysis","Android反射"],
+      "tools": ["Ripple"]
+    },
+    {
+      "title": "Precise and Compact Modular Procedure Summaries for Heap Manipulating Programs",
+      "journal": "CODASPY",
+      "author": "Isil Dillig; Thomas Dillig; Alex Aiken; Mooly Sagiv",
+      "year": 2011,
+      "keywords": ["taint analysis","Android app","static analysis","信息流"],
+      "tools": ["SBDA"]
+    },
+    {
+      "title": "Static Analysis of Android Apps: A Systematic Literature Review",
+      "journal": "IST",
+      "author": "Li Li; Tegawende F. Bissyande; , Mike Papadakis; Siegfried Rasthofer; Alexandre Bartel; Damien Octeau; Jacques Klein; Yves Le Traon",
+      "year": 2017,
+      "keywords": ["taint analysis","Android app","static analysis","信息流","综述","Literature"],
+      "tools": [""]
+    },
+    {
+      "title": "TaintBench: Automatic real-world malware benchmarking of Android taint analyses",
+      "journal": "EMSE",
+      "author": "Linghui Luo; Felix Pauck; Goran Piskachev; Manuel Benz; Ivan Pashchenko; Martin Mory; Eric Bodden; Ben Hermann; Fabio Massacci",
+      "year": 2021,
+      "keywords": ["taint analysis","Android app","static analysis","taint benchmark","Android malware"],
+      "tools": ["TaintBench"]
+    },
+    {
+      "title": "Static Data Flow Analysis for Android Applications",
+      "journal": "Technical document",
+      "author": "CASED, EC SPRIDE",
+      "year": 2016,
+      "keywords": ["taint analysis","Android app","static analysis","taint benchmark","Android malware"],
+      "tools": ["FlowDroid","SBDA","DroidBench"]
+    },
+    {
+      "title": "Static Data Flow Analysis for Android Applications",
+      "journal": "DSN",
+      "author": "CASED, EC SPRIDE",
+      "year": 2016,
+      "keywords": ["taint analysis","Android app","static analysis","taint benchmark","Android malware"],
+      "tools": ["FlowDroid","SBDA","DroidBench"]
+    },
+    {
+      "title": "Automatic Uncovering of Hidden Behaviors From Input Validation in Mobile Apps",
+      "journal": "SP",
+      "author": "Qingchuan Zhao; Chaoshun Zuo; Brendan Dolan-Gavitt; Giancarlo Pellegrino; Zhiqiang Lin",
+      "year": 2016,
+      "keywords": ["hidden behaviors","Android app","user input","Android malware"],
+      "tools": ["INPUTSCOPE"]
+    },
+    {
+      "title": "µDep: Mutation-based Dependency Generation for Precise Taint Analysis on Android Native Code",
+      "journal": "TDSC",
+      "author": "Cong Sun, Yuwan Ma, Dongrui Zeng, Gang Tan, Siqi Ma, and Yafei Wu",
+      "year": 2022,
+      "keywords": ["information flow analysis","Android app","static analysis","Android Java naive interface"],
+      "tools": ["µDep"]
+    },
+    {
+      "title": "µDep: Mutation-based Dependency Generation for Precise Taint Analysis on Android Native Code",
+      "journal": "TDSC",
+      "author": "Cong Sun, Yuwan Ma, Dongrui Zeng, Gang Tan, Siqi Ma, and Yafei Wu",
+      "year": 2022,
+      "keywords": ["information flow analysis","Android app","static analysis","Android Java naive interface"],
+      "tools": ["µDep"],
+      "url":"基于变异的Android本地代码建模及精确污点分析-西安电子科技大学-硕士毕业论文-2020-马豫宛"
+    },
+    {
+      "title": "On Tracking Information Flows through JNI in Android Applications",
+      "journal": "DSN",
+      "author": "Chenxiong Qian; Xiapu Luo; Yuru Shao; Alvin T.S. Chan",
+      "year": 2014,
+      "keywords": ["information flow analysis","Android app","static analysis","Android Java naive interface"],
+      "tools": ["NDroid"]
+    },
+    {
+      "title": "NDroid: Toward Tracking Information Flows Across Multiple Android Contexts",
+      "journal": "TIFS",
+      "author": "Lei Xue , Chenxiong Qian, Hao Zhou, Xiapu Luo , Yajin Zhou, Yuru Shao, Alvin T. S. Chan",
+      "year": 2019,
+      "keywords": ["information flow analysis","Android app","dynamic analysis","Java naive interface"],
+      "tools": ["NDroid"]
     }
   ]
 }
