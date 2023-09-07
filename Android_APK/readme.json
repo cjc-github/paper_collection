@@ -263,6 +263,94 @@
       "year": 2021,
       "keywords": ["taint analysis","Android static analysis","ICC"],
       "tools": ["BackDroid"]
+    },
+    {
+      "title": "Effective Inter-Component Communication Mapping in Android with Epicc: An Essential Step Towards Holistic Security Analysis",
+      "journal": "USENIX",
+      "author": "Damien Octeau; Patrick McDaniel; Somesh Jha; Alexandre Bartel; Eric Bodden; Jacques Klein; Yves Le Traon",
+      "year": 2013,
+      "keywords": ["taint analysis","Android static analysis","ICC"],
+      "tools": ["Epicc"]
+    },
+    {
+      "title": "POSTER: Detection of Information Leaks via Reflection in Android Apps",
+      "journal": "ASIA CCS",
+      "author": "Jyoti Gajrani; Li Li; Vijay Laxmi; Meenakshi Tripathi; M.S. Gaur; Mauro Conti",
+      "year": 2017,
+      "keywords": ["taint analysis","Android static analysis","ICC"],
+      "tools": ["EspyDroid"]
+    },
+    {
+      "title": "An efficient approach for taint analysis of android applications",
+      "journal": "CS",
+      "author": "Jie Zhang; Cong Tiana; Zhenhua Duan",
+      "year": 2021,
+      "keywords": ["taint analysis","Android static analysis","污点分析"],
+      "tools": ["FastDroid"]
+    },
+    {
+      "title": "FastDroid: Efficient Taint Analysis for Android Applications",
+      "journal": "ICSE-companion",
+      "author": "Jie Zhang; Cong Tiana; Zhenhua Duan",
+      "year": 2019,
+      "keywords": ["taint analysis","Android static analysis","污点分析"],
+      "tools": ["FastDroid"]
+    },
+    {
+      "title": "FlowDroid: Precise Context, Flow, Field, Object-sensitive and Lifecycle-aware Taint Analysis for Android Apps",
+      "journal": "PLDI",
+      "author": "Steven Arzt, Siegfried Rasthofer, Christian Fritz, Eric Bodden, Alexandre Bartel, Jacques Klein, Yves Le Traon, Damien Octeau, Patrick McDaniel",
+      "year": 2014,
+      "keywords": ["taint analysis","Android static analysis","污点分析"],
+      "tools": ["FlowDroid"]
+    },
+    {
+      "title": "Composite Constant Propagation: Application to Android Inter-Component Communication Analysis",
+      "journal": "ICSE",
+      "author": "Damien Octeau, Daniel Luchaup, Matthew Dering, Somesh Jha, Patrick McDaniel",
+      "year": 2015,
+      "keywords": ["taint analysis","Android static analysis","污点分析","Intent","ICC"],
+      "tools": ["IC3"]
+    },
+    {
+      "title": "A Comprehensive Evaluation of Android ICC Resolution Techniques",
+      "journal": "ASE",
+      "author": "Jiwei Yan; Shixin Zhang; Yepang Liu; Xi Deng; Jun Yan; Jian Zhang",
+      "year": 2022,
+      "keywords": ["Intent","ICC","对比"],
+      "tools": [""]
+    },
+    {
+      "title": "ICCBot: Fragment-Aware and Context-Sensitive ICC Resolution for Android Applications",
+      "journal": "ICSE companion",
+      "author": "Jiwei Yan; Shixin Zhang; Yepang Liu; Jun Yan; Jian Zhang",
+      "year": 2022,
+      "keywords": ["Intent","ICC"],
+      "tools": ["ICCBot"]
+    },
+    {
+      "title": "IccTA: Detecting Inter-Component Privacy Leaks in Android Apps",
+      "journal": "ICSE",
+      "author": "Li Li; Alexandre Bartel; Tegawende F. Bissyand; Jacques Klein; Yves Le Traon; Steven Arzt; Siegfried Rasthofer; Eric Bodden; Damien Octeau‡; Patrick McDaniel",
+      "year": 2015,
+      "keywords": ["Intent","ICC","taint analysis","Android app"],
+      "tools": ["IccTA"]
+    },
+    {
+      "title": "JN-SAF: Precise and Efficient NDK/JNI-aware Inter-language Static Analysis Framework for Security Vetting of Android Applications with Native Code",
+      "journal": "CCS",
+      "author": "Fengguo Wei; Xingwei Lin; Xinming Ou; Ting Chen; Xiaosong Zhang",
+      "year": 2018,
+      "keywords": ["Intent","ICC","taint analysis","Android app","native code","static analysis tools"],
+      "tools": ["JN-SAF"]
+    },
+    {
+      "title": "JuCify: A Step Towards Android Code Unification for Enhanced Static Analysis",
+      "journal": "ICSE",
+      "author": "Jordan Samhi; Jun Gao; Nadia Daoudi; Pierre Graux; Henri Hoyez; Xiaoyu Sun; Kevin Allix; Tegawendé F. Bissyandé; Jacques Klein",
+      "year": 2022,
+      "keywords": ["Intent","ICC","taint analysis","Android app","native code","static analysis"],
+      "tools": ["JuCify"]
     }
   ]
 }
