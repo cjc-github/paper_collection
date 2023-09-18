@@ -6,7 +6,8 @@
         "author": "MANUEL RIGGER; ZHENDONG SU",
         "year": 2020,
         "keywords": ["MySQL", "TiDB", "SQLite", "CockroachDB","TLP"],
-        "tools": ["sqlancer","TLP"]
+        "tools": ["sqlancer","TLP"],
+        "url": "https://github.com/sqlancer/sqlancer/"
       },
       {
         "title": "Industry Practice of Coverage-Guided Enterprise-Level DBMS Fuzzing",
@@ -46,7 +47,8 @@
         "author": "Wensheng Dou; Ziyu Cui; Qianwang Dai; Jiansen Song; Dong Wang; Yu Gao; Wei Wang; Jun Wei; Lei Chen; Hanmo Wang; Hua Zhong; Tao Huang",
         "year": 2023,
         "keywords": ["DBMS", "MySQL","MariaDB","TiDB"],
-        "tools": ["Troc"]
+        "tools": ["Troc"],
+        "url": "https://github.com/tcse-iscas/Troc"
       },
       {
         "title": "Testing Database Engines via Query Plan Guidance",
@@ -54,7 +56,8 @@
         "author": "Jinsheng Ba; Manuel Rigger",
         "year": 2023,
         "keywords": ["DBMS", "SQLite","CockroachDB","TiDB"],
-        "tools": ["QPG"]
+        "tools": ["QPG"],
+        "url": "https://github.com/sqlancer/sqlancer"
       },
       {
         "title": "Testing Database Engines via Pivoted Query Synthesis",
@@ -62,7 +65,8 @@
         "author": "Manuel Rigger; Zhendong Su",
         "year": 2020,
         "keywords": ["DBMS", "MySQL","SQLite","PostgreSQL"],
-        "tools": ["pivot row (PQS) sqlancer"]
+        "tools": ["pivot row (PQS) sqlancer"],
+        "url": "https://github.com/sqlancer/sqlancer"
       },
       {
         "title": "Detecting Transactional Bugs in Database Engines via Graph-Based Oracle Construction",
@@ -70,7 +74,8 @@
         "author": "Zu-Ming Jiang; Si Liu; Manuel Rigger; Zhendong Su",
         "year": 2023,
         "keywords": ["DBMS", "MySQL","TiDB","MariaDB"],
-        "tools": ["TxCheck"]
+        "tools": ["TxCheck"],
+        "url": "https://github.com/JZuming/TxCheck"
       },
       {
         "title": "Detecting Optimization Bugs in Database Engines via Non-optimizing Reference Engine Construction",
@@ -78,7 +83,8 @@
         "author": "Manuel Rigger; Zhendong Su",
         "year": 2020,
         "keywords": ["DBMS", "PostgreSQL","MariaDB","SQLite","CockroachDB"],
-        "tools": ["Non-optimizing Reference Engine Construction (NoREC) sqlancer"]
+        "tools": ["Non-optimizing Reference Engine Construction (NoREC) sqlancer"],
+        "url": "https://github.com/sqlancer/sqlancer"
       },
       {
         "title": "APOLLO: Automatic Detection and Diagnosis of Performance Regressions in Database Systems",
@@ -86,7 +92,8 @@
         "author": "Jinho Jung; Hong Hu; Joy Arulraj; Taesoo Kim; Woonhak Kang",
         "year": 2019,
         "keywords": ["DBMS"],
-        "tools": ["APOLLO"]
+        "tools": ["APOLLO"],
+        "url":"https://github.com/sslab-gatech/apollo"
       },
       {
         "title": "Squirrel: Testing Database Management Systems with Language Validity and Coverage Feedback",
@@ -94,7 +101,8 @@
         "author": "Rui Zhong; Yongheng Chen; Hong Hu; Hangfan Zhang; Wenke Lee; Dinghao Wu",
         "year": 2020,
         "keywords": ["DBMS","MySQL","PostgreSQL","MariaDB","SQLite"],
-        "tools": ["Squirrel"]
+        "tools": ["Squirrel"],
+        "url": "https://github.com/s3team/Squirrel"
       },
       {
         "title": "Squill: Testing DBMS with Correctness Feedback and Accurate Instantiation",
@@ -102,7 +110,8 @@
         "author": "Rui Zhong; Yongheng Chen; Hong Hu; Hangfan Zhang; Wenke Lee; Dinghao Wu",
         "year": 2023,
         "keywords": ["DBMS","MySQL","OceanBase","MariaDB"],
-        "tools": ["Squill"]
+        "tools": ["Squill"],
+        "url": "https://github.com/imbawenzi/Squill"
       },
       {
         "title": "Pinolo: Detecting Logical Bugs in Database Management Systems with Approximate Query Synthesis",
@@ -110,7 +119,8 @@
         "author": "Zongyin Hao; Quanfeng Huang;  Chengpeng Wang;  Jianfeng Wang;  Yushan Zhang4; Rongxin Wu1; Charles Zhang",
         "year": 2023,
         "keywords": ["DBMS","MySQL","OceanBase","MariaDB","TiDB"],
-        "tools": ["Pinolo"]
+        "tools": ["Pinolo"],
+        "url":"https://github.com/qaqcatz/impomysql.git"
       },
       {
         "title": "Detecting Logical Bugs of DBMS with Coverage-based Guidance",
@@ -118,7 +128,8 @@
         "author": "Yu Liang; Song Liu; Hong Hu",
         "year": 2022,
         "keywords": ["DBMS","MySQL","SQLite"],
-        "tools": ["SQLRight"]
+        "tools": ["SQLRight"],
+        "url": "https://github.com/psu-security-universe/sqlright"
       },
       {
         "title": "DynSQL: Stateful Fuzzing for Database Management Systems with Complex and Valid SQL Query Generation",
@@ -142,7 +153,8 @@
         "author": "Jinsheng Ba; Manuel Rigger",
         "year": 2023,
         "keywords": ["DBMS","SQLite","TiDB","CockroachDB"],
-        "tools": ["CERT","sqlancer"]
+        "tools": ["CERT","sqlancer"],
+        "url": "https://github.com/sqlancer/sqlancer"
       }
   ]
 }
