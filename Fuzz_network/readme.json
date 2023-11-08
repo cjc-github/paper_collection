@@ -1,37 +1,273 @@
 {
     "papers": [
       {
-        "title": "模糊测试技术综述",
-        "journal": "计算机研究与发展",
-        "author": "任泽众; 郑晗; 张嘉元; 王文杰; 冯涛; 王鹤; 张玉清",
+        "title": "Large Language Model guided Protocol Fuzzing",
+        "journal": "NDSS",
+        "author": "Ruijie Meng, Martin Mirchev, Marcel Bohme, Abhik Roychoudhury",
+        "year": 2024,
+        "keywords": ["大数据", "协议模糊测试","Large Language","Protocol Fuzzing"],
+        "tools": ["chatafl"],
+        "url": "https://github.com/ChatAFLndss/ChatAFL"
+      },
+      {
+        "title": "REST API Fuzzing by Coverage Level Guided Blackbox Testing",
+        "journal": "QRS",
+        "author": "Chung-Hsuan Tsai, Shi-Chun Tsai, and Shih-Kun Huang",
         "year": 2021,
-        "keywords": ["模糊测试 ", "综述"],
-        "tools": [""]
+        "keywords": ["REST API", "Fuzzing","Blackbox test"],
+        "tools": ["Hsuan-Fuzz"],
+        "url": "https://github.com/iasthc/hsuan-fuzz"
       },
       {
-        "title": "模糊测试中的静态插桩技术",
-        "journal": "计算机研究与发展",
-        "author": "王明哲; 姜宇; 孙家广",
+        "title": "WAFL: Binary-Only WebAssembly Fuzzing with Fast Snapshots",
+        "journal": "ROOTS",
+        "author": "Keno Haßler; Dominik Maier",
+        "year": 2021,
+        "keywords": ["snapshots", "fuzzing","WebAssembly","AFL","Binary-only"],
+        "tools": ["WAFL"],
+        "url": "https://github.com/fgsect/WAFL"
+      },
+      {
+        "title": "Nyx-Net: Network Fuzzing with Incremental Snapshots",
+        "journal": "EuroSys",
+        "author": "Sergej Schumilo1, Cornelius Aschermann1, Andrea Jemmett2, Ali Abbasi1 and Thorsten Holz1",
+        "year": 2022,
+        "keywords": ["Fuzzing tools", "Protocol Fuzzing","Protocol Fuzzing","snapshots"],
+        "tools": ["Nyx-Net"],
+        "url":"https://github.com/RUB-SysSec/nyx-net"
+      },
+      {
+        "title": "Model-Based Grey-Box Fuzzing of Network Protocols",
+        "journal": "Security and Communication Networks(SCN)",
+        "author": "Yan Pan , Wei Lin, Liang Jiao, and Yuefei Zhu",
+        "year": 2022,
+        "keywords": ["Fuzzing tools", "Protocol Fuzzing","Protocol Fuzzing","Java"],
+        "tools": ["state-fuzzer"],
+        "url":"https://gitee.com/z11panyan/state-fuzzer"
+      },
+      {
+        "title": "FitM: Binary-Only Coverage-Guided Fuzzing for Stateful Network Protocols",
+        "journal": "BAR",
+        "author": "Dominik Maier, Otto Bittner, Julian Beier, Marc Munier",
+        "year": 2022,
+        "keywords": ["snapshots", "stateful","Protocol Fuzzing","AFL++"],
+        "tools": ["FitM"],
+        "url":"https://github.com/FGSect/FitM"
+      },
+      {
+        "title": "Stateful Greybox Fuzzing",
+        "journal": "USENIX",
+        "author": "Jinsheng Ba, Marcel Böhme, Zahra Mirzamomen, and Abhik Roychoudhury",
+        "year": 2022,
+        "keywords": ["stateful","Protocol Fuzzing","LibFuzzer"],
+        "tools": ["SGFuzz"],
+        "url":"https://github.com/bajinsheng/SGFuzz"
+      },
+      {
+        "title": "Sulley",
+        "journal": "-",
+        "author": "OpenRCE",
+        "year": 2022,
+        "keywords": ["no stateful","Protocol Fuzzing"],
+        "tools": ["Sulley"],
+        "url":"https://github.com/OpenRCE/sulley"
+      },
+      {
+        "title": "aflnwe",
+        "journal": "-",
+        "author": "aflnet",
+        "year": "none",
+        "keywords": ["stateful","Protocol Fuzzing","afl"],
+        "tools": ["aflnwe"],
+        "url":"https://github.com/aflnet/aflnwe"
+      },
+      {
+        "title": "afl++",
+        "journal": "-",
+        "author": "afl++",
+        "year": "none",
+        "keywords": ["stateful","Protocol Fuzzing","afl++"],
+        "tools": ["afl++"],
+        "url":"https://github.com/AFLplusplus/AFLplusplus/tree/networking"
+      },
+      {
+        "title": "preeny",
+        "journal": "-",
+        "author": "zardus",
+        "year": "none",
+        "keywords": ["stateful","Protocol Fuzzing","afl++"],
+        "tools": ["preeny"],
+        "url":"https://github.com/zardus/preeny"
+      },
+      {
+        "title": "frizzer",
+        "journal": "-",
+        "author": "zardus",
+        "year": "none",
+        "keywords": ["stateful","Protocol Fuzzing","frida"],
+        "tools": ["frizzer"],
+        "url":"https://github.com/demantz/frizzer"
+      },
+      {
+        "title": "fuzzowski",
+        "journal": "DEFCON",
+        "author": "nccgroup",
+        "year": "none",
+        "keywords": ["stateful","Protocol Fuzzing","sulley","boofuzz"],
+        "tools": ["fuzzowski"],
+        "url":"https://github.com/nccgroup/fuzzowski"
+      },
+      {
+        "title": "NSFuzz: Towards Efficient and State-Aware Network Service Fuzzing",
+        "journal": "TSEM",
+        "author": "SHISONG QIN, FAN HU, ZHEYU MA, BODONG ZHAO, TINGTING YIN, CHAO ZHANG",
         "year": 2023,
-        "keywords": ["模糊测试", "插桩","源码插桩"],
-        "tools": [""]
+        "keywords": ["Network servive","Protocol Fuzzing"],
+        "tools": ["NSFuzz"]
       },
       {
-        "title": "TaintPoint:使用活跃轨迹高效挖掘污点风格漏洞",
-        "journal": "软件学报",
-        "author": "方浩然; 郭帆; 李航宇",
+        "title": "SNPSFuzzer: A Fast Greybox Fuzzer for Stateful Network Protocols using Snapshots",
+        "journal": "TIFS",
+        "author": "Li, Junqiang and Li, Senyi and Sun, Gang and Chen, Ting and Yu, Hongfang",
         "year": 2022,
-        "keywords": ["静态分析", "模糊测试","污点分析"],
-        "tools": ["TaintPoint"]
+        "keywords": ["Network servive","Protocol Fuzzing"],
+        "tools": ["SNPSFuzzer"],
+        "url": "https://github.com/SNPSFuzzer/SNPSFuzzer"
       },
       {
-        "title": "LibAFL: A Framework to Build Modular and Reusable Fuzzers",
-        "journal": "CCS",
-        "author": "Andrea Fioraldi; Dominik Maier; Dongjia Zhang; Davide Balzarotti",
+        "title": "SnapFuzz: An Efficient Fuzzing Framework for Network Applications",
+        "journal": "ISSTA",
+        "author": "Anastasios Andronidis, Cristian Cadar",
         "year": 2022,
-        "keywords": ["Fuzzing tools", "模糊测试"],
-        "tools": ["LibAFL"],
-        "url":"https://github.com/AFLplusplus/LibAFL"
+        "keywords": ["Network servive","Protocol Fuzzing"],
+        "tools": ["SnapFuzz"],
+        "url": "https://github.com/srg-imperial/SnapFuzz"
+      },
+      {
+        "title": "StateAFL: Greybox Fuzzing for Stateful Network Servers",
+        "journal": "ESE",
+        "author": "Roberto Natella",
+        "year": 2022,
+        "keywords": ["Network servive","Protocol Fuzzing"],
+        "tools": ["StateAFL"],
+        "url": "https://github.com/stateafl/stateafl"
+      },
+      {
+        "title": "INTENDER: Fuzzing Intent-Based Networking with Intent-State Transition Guidance",
+        "journal": "USENIX",
+        "author": "Jiwon Kim, Benjamin E. Ujcich, Dave (Jing) Tian",
+        "year": 2023,
+        "keywords": ["Network servive","Protocol Fuzzing"],
+        "tools": ["INTENDER"],
+        "url": "https://github.com/purseclab/intender"
+      },
+      {
+        "title": "AFLNET: A Greybox Fuzzer for Network Protocols",
+        "journal": "ICST",
+        "author": "Van-Thuan Pham, Marcel Bohme, Abhik Roychoudhury",
+        "year": 2020,
+        "keywords": ["Network servive","Protocol Fuzzing"],
+        "tools": ["AFLNET"],
+        "url": "https://github.com/aflnet/aflnet"
+      },
+      {
+        "title": "Protocol State Fuzzing of TLS Implementations",
+        "journal": "USENIX",
+        "author": "Joeri de Ruiter, Erik Poll",
+        "year": 2015,
+        "keywords": ["Network servive","Protocol Fuzzing"],
+        "tools": ["TLS-Fuzz"]
+      },
+      {
+        "title": "PULSAR: Stateful Black-Box Fuzzing of Proprietary Network Protocols",
+        "journal": "SecureComm",
+        "author": "Hugo Gascon, Christian Wressnegger, Fabian Yamaguchi, Daniel Arp, and Konrad Rieck",
+        "year": 2015,
+        "keywords": ["Network servive","Protocol Fuzzing"],
+        "tools": ["PULSAR"],
+        "url": "https://github.com/hgascon/pulsar"
+      },
+      {
+        "title": "PULSAR: Stateful Black-Box Fuzzing of Proprietary Network Protocols",
+        "journal": "SecureComm",
+        "author": "Hugo Gascon, Christian Wressnegger, Fabian Yamaguchi, Daniel Arp, and Konrad Rieck",
+        "year": 2015,
+        "keywords": ["Network servive","Protocol Fuzzing"],
+        "tools": ["PULSAR"],
+        "url": "https://github.com/hgascon/pulsar"
+      },
+      {
+        "title": "AutoFuzz: Automated Network Protocol Fuzzing Framework",
+        "journal": "IJCSNS",
+        "author": "Serge Gorbunov and Arnold Rosenbloom",
+        "year": 2010,
+        "keywords": ["Network servive","Protocol Fuzzing"],
+        "tools": ["autofuzz"],
+        "url": "sourceforge.net/projects/autofuzz/"
+      },
+      {
+        "title": "AutoFuzz: Automated Network Protocol Fuzzing Framework",
+        "journal": "IJCSNS",
+        "author": "Serge Gorbunov and Arnold Rosenbloom",
+        "year": 2010,
+        "keywords": ["Network servive","Protocol Fuzzing"],
+        "tools": ["autofuzz"],
+        "url": "sourceforge.net/projects/autofuzz/"
+      },
+      {
+        "title": "boofuzz Documentation",
+        "journal": "-",
+        "author": "Joshua Pereyda",
+        "year": 2023,
+        "keywords": ["Network servive","Protocol Fuzzing"],
+        "tools": ["boofuzz"],
+        "url": "https://github.com/jtpereyda/boofuzz",
+        "url1":"https://pypi.org/project/boofuzz/"
+      },
+      {
+        "title": "boofuzz Documentation",
+        "journal": "-",
+        "author": "Joshua Pereyda",
+        "year": 2023,
+        "keywords": ["Network servive","Protocol Fuzzing"],
+        "tools": ["boofuzz"],
+        "url": "https://github.com/jtpereyda/boofuzz",
+        "url1":"https://pypi.org/project/boofuzz/"
+      },
+      {
+        "title": "SNOOZE: Toward a Stateful NetwOrk prOtocol fuzZEr",
+        "journal": "ISC",
+        "author": "OpenRCE",
+        "year": 2023,
+        "keywords": ["Network servive","Protocol Fuzzing"],
+        "tools": ["SNOOZE"],
+        "url": "https://github.com/OpenRCE/sulley"
+      },
+      {
+        "title": "SPIKE",
+        "journal": "-",
+        "author": "Dave Aitel",
+        "year": 2002,
+        "keywords": ["Network servive","Protocol Fuzzing"],
+        "tools": ["SPIKE"]
+      },
+      {
+        "title": "Peach",
+        "journal": "-",
+        "author": "MozillaSecurity",
+        "year": "none",
+        "keywords": ["Network servive","Protocol Fuzzing"],
+        "tools": ["Peach"],
+        "url": "https://peachtech.gitlab.io/peach-fuzzer-community/",
+        "url1":"https://github.com/MozillaSecurity/peach"
+      },
+      {
+        "title": "Software Security Assessment through Specification Mutations and Fault Injection",
+        "journal": "Communications and Multimedia Security Issues of the New Century(CMS)",
+        "author": "Rauli Kaksonen, Marko Laakso, Ari Takanen ",
+        "year": 2001,
+        "keywords": ["Network servive","Protocol Fuzzing"],
+        "tools": ["PROTOS"]
       }
   ]
 }
