@@ -1,0 +1,37 @@
+{
+    "papers": [
+      {
+        "title": "模糊测试技术综述",
+        "journal": "计算机研究与发展",
+        "author": "任泽众; 郑晗; 张嘉元; 王文杰; 冯涛; 王鹤; 张玉清",
+        "year": 2021,
+        "keywords": ["模糊测试 ", "综述"],
+        "tools": [""]
+      },
+      {
+        "title": "模糊测试中的静态插桩技术",
+        "journal": "计算机研究与发展",
+        "author": "王明哲; 姜宇; 孙家广",
+        "year": 2023,
+        "keywords": ["模糊测试", "插桩","源码插桩"],
+        "tools": [""]
+      },
+      {
+        "title": "TaintPoint:使用活跃轨迹高效挖掘污点风格漏洞",
+        "journal": "软件学报",
+        "author": "方浩然; 郭帆; 李航宇",
+        "year": 2022,
+        "keywords": ["静态分析", "模糊测试","污点分析"],
+        "tools": ["TaintPoint"]
+      },
+      {
+        "title": "LibAFL: A Framework to Build Modular and Reusable Fuzzers",
+        "journal": "CCS",
+        "author": "Andrea Fioraldi; Dominik Maier; Dongjia Zhang; Davide Balzarotti",
+        "year": 2022,
+        "keywords": ["Fuzzing tools", "模糊测试"],
+        "tools": ["LibAFL"],
+        "url":"https://github.com/AFLplusplus/LibAFL"
+      }
+  ]
+}

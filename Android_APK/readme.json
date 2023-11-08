@@ -446,7 +446,7 @@
       "journal": "DSN",
       "author": "Chenxiong Qian; Xiapu Luo; Yuru Shao; Alvin T.S. Chan",
       "year": 2014,
-      "keywords": ["information flow analysis","Android app","static analysis","Android Java naive interface"],
+      "keywords": ["information flow analysis","Android app","动态污点分析","Android Java naive interface"],
       "tools": ["NDroid"]
     },
     {
@@ -454,8 +454,48 @@
       "journal": "TIFS",
       "author": "Lei Xue , Chenxiong Qian, Hao Zhou, Xiapu Luo , Yajin Zhou, Yuru Shao, Alvin T. S. Chan",
       "year": 2019,
-      "keywords": ["information flow analysis","Android app","dynamic analysis","Java naive interface"],
+      "keywords": ["information flow analysis","Android app","动态污点分析","Java naive interface"],
       "tools": ["NDroid"]
+    },
+    {
+      "title": "Malton: Towards On-Device Non-Invasive Mobile Malware Analysis for ART",
+      "journal": "USENIX",
+      "author": "Lei Xue, Yajin Zhou, Ting Chen, Xiapu Luo, Guofei Gu",
+      "year": 2017,
+      "keywords": ["information flow analysis","Android app","动态污点分析","Java naive interface","ART"],
+      "tools": ["Malton"]
+    },
+    {
+      "title": "NCScope: Hardware-Assisted Analyzer for Native Code in Android Apps",
+      "journal": "USENIX",
+      "author": "Hao Zhou, Shuohan Wu, Xiapu Luo, Xiapu Luo, Ting Wang, Yajin Zhou, Chao Zhang, Haipeng Cai",
+      "year": 2022,
+      "keywords": ["information flow analysis","Android app","动态污点分析"],
+      "tools": ["NCScope"]
+    },
+    {
+      "title": "NCScope: Hardware-Assisted Analyzer for Native Code in Android Apps",
+      "journal": "USENIX",
+      "author": "Hao Zhou, Shuohan Wu, Xiapu Luo, Xiapu Luo, Ting Wang, Yajin Zhou, Chao Zhang, Haipeng Cai",
+      "year": 2022,
+      "keywords": ["information flow analysis","Android app","动态污点分析"],
+      "tools": ["NCScope"]
+    },
+    {
+      "title": "TaintDroid: An Information-Flow Tracking System for Realtime Privacy Monitoring on Smartphones",
+      "journal": "ODSI",
+      "author": "WILLIAM ENCK, PETER GILBERT, BYUNG-GON CHUN, LANDON P. COX, JAEYEON JUNG, PATRICK MCDANIEL, ANMOL N. SHETH",
+      "year": 2010,
+      "keywords": ["information flow analysis","Android app","动态污点分析"],
+      "tools": ["TaintDroid"]
+    },
+    {
+      "title": "TaintDroid: An Information-Flow Tracking System for Realtime Privacy Monitoring on Smartphones",
+      "journal": "TOCS",
+      "author": "WILLIAM ENCK, PETER GILBERT, SEUNGYEOP HAN, VASANT TENDULKAR, BYUNG-GON CHUN, LANDON P. COX, JAEYEON JUNG, PATRICK MCDANIEL, ANMOL N. SHETH",
+      "year": 2015,
+      "keywords": ["information flow analysis","Android app","动态污点分析"],
+      "tools": ["TaintDroid"]
     }
   ]
 }
