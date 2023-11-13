@@ -264,10 +264,26 @@
       {
         "title": "Software Security Assessment through Specification Mutations and Fault Injection",
         "journal": "Communications and Multimedia Security Issues of the New Century(CMS)",
-        "author": "Rauli Kaksonen, Marko Laakso, Ari Takanen ",
+        "author": "Rauli Kaksonen, Marko Laakso, Ari Takanen",
         "year": 2001,
         "keywords": ["Network servive","Protocol Fuzzing"],
         "tools": ["PROTOS"]
+      },
+      {
+        "title": "网络协议模糊测试综述",
+        "journal": "计算机应用研究",
+        "author": "徐威, 李鹏, 张文镔, 陆丽",
+        "year": 2023,
+        "keywords": ["协议", "模糊测试", "综述"],
+        "tools": [""]
+      },
+      {
+        "title": "网络协议软件漏洞挖掘技术综述",
+        "journal": "软件学报",
+        "author": "喻波, 苏金树, 杨强, 黄见欣, 盛周石, 刘润昊, 卢建君, 梁晨, 陈晨, 赵磊",
+        "year": 2023,
+        "keywords": ["协议", "模糊测试", "综述"],
+        "tools": [""]
       }
   ]
 }
