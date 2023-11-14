@@ -1,0 +1,141 @@
+{
+    "papers": [
+      {
+        "title": "并行模糊测试综述",
+        "journal": "计算机工程与科学",
+        "author": "顾涛涛,卢帅兵,李响,况晓辉,赵刚",
+        "year": 2022,
+        "keywords": ["并行模糊测试", "任务分发"],
+        "tools": [""]
+      },{
+        "title": "AFL++: Combining Incremental Steps of Fuzzing Research",
+        "journal": "WOOT",
+        "author": "Andrea Fioraldi, Dominik Maier, Heiko Eißfeldt, Marc Heuse",
+        "year": 2022,
+        "keywords": ["单机多核", "模糊测试","并行模糊测试","Parallel Fuzzing","二进制插桩"],
+        "tools": ["AFLplusplus"],
+        "url": "https://github.com/AFLplusplus/AFLplusplus"
+      },{
+        "title": "libFuzzer",
+        "journal": "",
+        "author": "google",
+        "year": 2022,
+        "keywords": ["单机多核", "模糊测试","并行模糊测试","Parallel Fuzzing","源码插桩"],
+        "tools": ["libFuzzer"],
+        "url": "https://llvm.org/docs/LibFuzzer.html"
+      },{
+        "title": "centipede",
+        "journal": "",
+        "author": "google",
+        "year": 2023,
+        "keywords": ["单机多核", "模糊测试","并行模糊测试","Parallel Fuzzing","源码插桩"],
+        "tools": ["centipede"],
+        "url": "https://github.com/google/fuzztest/tree/main/centipede"
+      },{
+        "title": "honggfuzz",
+        "journal": "",
+        "author": "google",
+        "year": 2023,
+        "keywords": ["单机多核", "模糊测试","并行模糊测试","Parallel Fuzzing"],
+        "tools": ["honggfuzz"],
+        "url": "https://github.com/google/honggfuzz"
+      },{
+        "title": "clusterfuzz",
+        "journal": "",
+        "author": "google",
+        "year": 2023,
+        "keywords": ["多机多核", "模糊测试","并行模糊测试","Parallel Fuzzing"],
+        "tools": ["clusterfuzz"],
+        "url": "https://github.com/google/clusterfuzz"
+      },{
+        "title": "onefuzz",
+        "journal": "",
+        "author": "microsoft",
+        "year": 2023,
+        "keywords": ["多机多核", "模糊测试","并行模糊测试","Parallel Fuzzing"],
+        "tools": ["onefuzz"],
+        "url": "https://github.com/microsoft/onefuzz"
+      },{
+        "title": "roving",
+        "journal": "",
+        "author": "richo",
+        "year": "",
+        "keywords": ["单机多核", "模糊测试", "并行模糊测试", "Parallel Fuzzing", "AFL"],
+        "tools": ["roving"],
+        "url": "https://github.com/richo/roving"
+      },{
+        "title": "EnFuzz: Ensemble Fuzzing with Seed Synchronization among Diverse Fuzzers",
+        "journal": "",
+        "author": "Yuanliang Chen, Yu Jiang, Fuchen Ma, Jie Liang, Mingzhe Wang, Chijin Zhou, Xun Jiao, Zhuo Su",
+        "year": 2019,
+        "keywords": ["单机多核", "模糊测试","并行模糊测试","Parallel Fuzzing"],
+        "tools": ["EnFuzz"],
+        "url": "https://github.com/enfuzz/enfuzz"
+      },{
+        "title": "PAFL: Extend Fuzzing Optimizations of Single Mode to Industrial Parallel Mode",
+        "journal": "ESEC/FSE",
+        "author": "Jie Liang, Yu Jiang, Yuanliang Chen, Mingzhe Wang, Chijin Zhou, jiaguang Sun",
+        "year": 2018,
+        "keywords": ["单机多核", "模糊测试","并行模糊测试","Parallel Fuzzing","AFL"],
+        "tools": ["PAFL"],
+        "url": ""
+      },{
+        "title": "µFUZZ: Redesign of Parallel Fuzzing using Microservice Architecture",
+        "journal": "USENIX",
+        "author": "Yongheng Chen, Rui Zhong, Yupeng Yang, Hong Hu, Dinghao Wu, Wenke Lee",
+        "year": 2023,
+        "keywords": ["单机多核", "模糊测试","并行模糊测试","Parallel Fuzzing","AFL"],
+        "tools": ["µFUZZ"],
+        "url": "https://github.com/OMH4ck/mufuzz"
+      },{
+        "title": "Cupid : Automatic Fuzzer Selection for Collaborative Fuzzing",
+        "journal": "ACSAS",
+        "author": "Emre Güler, Philipp Görz, Elia Geretto, Andrea Jemmett, Sebastian Österlund, Herbert Bos, Cristiano Giuffrida, Thorsten Holz",
+        "year": 2020,
+        "keywords": ["单机多核", "模糊测试","并行模糊测试","Parallel Fuzzing","AFL"],
+        "tools": ["Cupid"],
+        "url": "https://github.com/RUB-SysSec/cupid"
+      },{
+        "title": "P-Fuzz: A Parallel Grey-Box Fuzzing Framework",
+        "journal": "MDPI",
+        "author": "Congxi Song, Xu Zhou, Qidi Yin, Xinglu He, Hangwei Zhang and Kai Lu",
+        "year": 2019,
+        "keywords": ["多机多核", "模糊测试","并行模糊测试","Parallel Fuzzing","AFL"],
+        "tools": ["P-Fuzz"],
+        "url": ""
+      },{
+        "title": "CollabFuzz: A Framework for Collaborative Fuzzing",
+        "journal": "EuroSec",
+        "author": "Sebastian Österlund, Elia Geretto, Andrea Jemmett, Emre Güler,Philipp Görz, Thorsten Holz,Cristiano Giuffrida, Herbert Bos",
+        "year": 2021,
+        "keywords": ["多机多核", "模糊测试","并行模糊测试","Parallel Fuzzing","AFL"],
+        "tools": ["CollabFuzz"],
+        "url": "https://github.com/vusec/collabfuzz"
+      },{
+        "title": "UltraFuzz: Towards Resource-saving in Distributed Fuzzing",
+        "alias": "UniFuzz: Optimizing Distributed Fuzzing via Dynamic Centralized Task Scheduling",
+        "journal": "TSE",
+        "author": "Xu Zhou, Pengfei Wang , Chenyifan Liu, Tai Yue, Yingying Liu, Congxi Song, Kai Lu, Qidi Yin, Xu Ha",
+        "year": 2022,
+        "keywords": ["多机多核", "模糊测试","并行模糊测试","Parallel Fuzzing","AFL"],
+        "tools": ["Ultrafuzz"],
+        "url": "https://gitlink.org.cn/hunter-2018/Ultrafuzzz"
+      },{
+        "title": "distributed fuzzing for afl",
+        "journal": "",
+        "author": "MartijnB",
+        "year": "",
+        "keywords": ["多机多核", "模糊测试","并行模糊测试","Parallel Fuzzing","AFL"],
+        "tools": ["disfuzz-afl"],
+        "url": "https://github.com/MartijnB/disfuzz-afl"
+      },{
+        "title": "manul",
+        "journal": "",
+        "author": "mxmssh",
+        "year": "",
+        "keywords": ["多机多核", "模糊测试","并行模糊测试","Parallel Fuzzing","AFL"],
+        "tools": ["manul"],
+        "url": "https://github.com/mxmssh/manul"
+      }
+  ]
+}
