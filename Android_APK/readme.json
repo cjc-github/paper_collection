@@ -496,6 +496,30 @@
       "year": 2015,
       "keywords": ["information flow analysis","Android app","动态污点分析"],
       "tools": ["TaintDroid"]
+    },
+    {
+      "title": "安卓恶意软件检测方法综述",
+      "journal": "中国科学:信息科学",
+      "author": "范铭, 刘烃, 刘均, 罗夏朴, 于乐, 管晓宏",
+      "year": 2020,
+      "keywords": ["安卓","恶意软件检测","家族识别","机器学习"],
+      "tools": [""]
+    },
+    {
+      "title": "Android应用测试输入自动生成技术",
+      "journal": "中国科学:信息科学",
+      "author": "王珏, 蒋炎岩, 许畅, 马晓星, 吕建",
+      "year": 2019,
+      "keywords": ["Android","自动测试","输入生成","技术描述","智能手机"],
+      "tools": [""]
+    },
+    {
+      "title": "Android应用测试输入自动生成技术",
+      "journal": "中国科学:信息科学",
+      "author": "顾咏丰, 马萍, 贾向阳, 江贺, 玄跻峰",
+      "year": 2019,
+      "keywords": ["软件崩溃","崩溃分析","崩溃修复","程序调试","程序异常处理"],
+      "tools": [""]
     }
   ]
 }
