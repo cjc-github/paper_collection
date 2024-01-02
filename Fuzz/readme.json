@@ -32,6 +32,33 @@
         "keywords": ["Fuzzing tools", "模糊测试"],
         "tools": ["LibAFL"],
         "url":"https://github.com/AFLplusplus/LibAFL"
+      },
+      {
+        "title": "Registered Report: DATAFLOW Towards a Data-Flow-Guided Fuzzer",
+        "journal": "Fuzzing",
+        "author": "Adrian Herrera; Mathias Payer; Antony L. Hosking",
+        "year": 2022,
+        "keywords": ["Fuzzing tools", "Fuzzing test", "data flow"],
+        "tools": ["datAFLow"],
+        "url":"https://github.com/HexHive/datAFLow"
+      },
+      {
+        "title": "DatAFLow: Toward a Data-Flow-Guided Fuzzer",
+        "journal": "TOSEM",
+        "author": "Adrian Herrera; Mathias Payer; Antony L. Hosking",
+        "year": 2023,
+        "keywords": ["Fuzzing tools", "Fuzzing test", "data flow"],
+        "tools": ["datAFLow"],
+        "url":"https://github.com/HexHive/datAFLow"
+      },
+      {
+        "title": "PATA: Fuzzing with Path Aware Taint Analysis",
+        "journal": "S&P",
+        "author": "Jie Liang, Mingzhe Wang, Chijin Zhou, Zhiyong Wu, Yu Jiang, Jianzhong Liu, Zhe Liu, Jiaguang Sun",
+        "year": 2022,
+        "keywords": ["Fuzzing tools", "Fuzzing test", "data flow"],
+        "tools": ["datAFLow"],
+        "url":"https://github.com/HexHive/datAFLow"
       }
   ]
 }

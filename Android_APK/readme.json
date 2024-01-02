@@ -514,12 +514,21 @@
       "tools": [""]
     },
     {
-      "title": "Android应用测试输入自动生成技术",
+      "title": "软件崩溃研究进展",
       "journal": "中国科学:信息科学",
       "author": "顾咏丰, 马萍, 贾向阳, 江贺, 玄跻峰",
       "year": 2019,
       "keywords": ["软件崩溃","崩溃分析","崩溃修复","程序调试","程序异常处理"],
       "tools": [""]
+    },
+    {
+      "title": "Fully Automated Functional Fuzzing of Android Apps for Detecting Non-crashing Logic Bugs",
+      "journal": "OOPSLA",
+      "author": "TING SU, YICHEN YAN, JUE WANG, JINGLING SUN, YIHENG XIONG GENUANG PU, KE WANG, ZHENGDONG SU",
+      "year": 2021,
+      "keywords": ["GUI testing","Android apps","Non-crashing functional bugs","Logic bugs"],
+      "tools": ["Genie"],
+      "url":"https://github.com/functional-fuzzing-android-apps/home"
     }
   ]
 }

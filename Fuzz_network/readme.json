@@ -284,6 +284,15 @@
         "year": 2023,
         "keywords": ["协议", "模糊测试", "综述"],
         "tools": [""]
+      },
+      {
+        "title": "ProFuzzBench: A Benchmark for Stateful Protocol Fuzzing",
+        "journal": "ISSTA",
+        "author": "Roberto Natella, Van-Thuan Pham",
+        "year": 2021,
+        "keywords": ["network protocols", "fuzzing", "benchmarking"],
+        "tools": ["ProFuzzBench"],
+        "url":"https://github.com/profuzzbench/profuzzbench"
       }
   ]
 }
