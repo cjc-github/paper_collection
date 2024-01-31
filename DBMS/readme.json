@@ -155,6 +155,15 @@
         "keywords": ["DBMS","SQLite","TiDB","CockroachDB"],
         "tools": ["CERT","sqlancer"],
         "url": "https://github.com/sqlancer/sqlancer"
+      },
+      {
+        "title": "数据库管理系统模糊测试技术研究综述",
+        "journal": "arxiv",
+        "author": "梁杰,吴志镛,符景洲,朱娟,姜宇,孙家广",
+        "year": 2024,
+        "keywords": ["数据库管理系统","模糊测试","漏洞挖掘"],
+        "tools": [""],
+        "url": ""
       }
   ]
 }
