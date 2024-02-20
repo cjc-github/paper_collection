@@ -529,6 +529,15 @@
       "keywords": ["GUI testing","Android apps","Non-crashing functional bugs","Logic bugs"],
       "tools": ["Genie"],
       "url":"https://github.com/functional-fuzzing-android-apps/home"
+    },
+    {
+      "title": "软件漏洞自动化利用综述",
+      "journal": "计算机研究与发展",
+      "author": "武泽慧，魏强，王新蕾，王允超，燕宸毓，陈静",
+      "year": 2024,
+      "keywords": ["综述","软件安全","利用生成","漏洞分析"],
+      "tools": [""],
+      "url":""
     }
   ]
 }
