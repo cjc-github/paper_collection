@@ -538,6 +538,122 @@
       "keywords": ["综述","软件安全","利用生成","漏洞分析"],
       "tools": [""],
       "url":""
+    },
+    {
+      "title": "A Tale of Two Cities: How WebView Induces Bugs to Android Applications",
+      "journal": "ISSTA",
+      "author": "Jiajun Hu, Lili Wei, Yepang Liu, Shing-Chi Cheung, Huaxun Huang",
+      "keywords": ["Empirical study", "Android system WebView", "GUI testing"],
+      "tools": ["ωDroid"],
+      "url":""
+    },
+    {
+      "title": "ωTest: WebView-Oriented Testing for Android Applications",
+      "journal": "ISSTA",
+      "author": "Jiajun Hu, Lili Wei, Yepang Liu, Shing-Chi Cheung, Huaxun Huang",
+      "year": 2023,
+      "keywords": ["Android", "WebView", "Test Generation", "Coverage Criteria"],
+      "tools": ["ωTest"],
+      "url":""
+    },
+    {
+      "title": "Reducing the Memory Footprint of IFDS-Based Data-Flow Analyses using Fine-Grained Garbage Collection",
+      "journal": "ISSTA",
+      "author": "Dongjie He, Yujiang Gui, Yaoqing Gao, Jingling Xue",
+      "year": 2023,
+      "keywords": ["IFDS", "Taint Analysis", "Path Edge Collection"],
+      "tools": ["Fpc"],
+      "url":"https://zenodo.org/records/7965678"
+    },
+    {
+      "title": "Sustainable Solving: Reducing The Memory Footprint of IFDS-Based Data Flow Analyses Using Intelligent Garbage Collection",
+      "journal": "ICSE",
+      "author": "Steven Arzt",
+      "year": 2021,
+      "keywords": ["IFDS", "Taint Analysis", "Path Edge Collection"],
+      "tools": ["CLEANDROID"],
+      "url":""
+    },
+    {
+      "title": "Performance-Boosting Sparsification of the IFDS Algorithm with Applications to Taint Analy",
+      "journal": "ASE",
+      "author": "Dongjie He,  Haofeng Li,  Lei Wang, Haining Meng, Hengjie Zheng, Jie Liu, Shuangwei Hu,  Lian Li, Jingling Xue",
+      "year": 2019,
+      "keywords": ["IFDS", "Taint Analysis", "data-flow analysis"],
+      "tools": ["SPARSEDROID"],
+      "url":""
+    },
+    {
+      "title": "Merge-Replay: Efficient IFDS-Based Taint Analysis by Consolidating Equivalent Value Flows",
+      "journal": "ASE",
+      "author": "Yujiang Gui, Dongjie He, Jingling Xue",
+      "year": 2023,
+      "keywords": ["IFDS", "Taint Analysis", "scalability", "precision"],
+      "tools": ["MERGEDROID"],
+      "url":""
+    },
+    {
+      "title": "IFDS-based Context Debloating for Object-Sensitive Pointer Analysis",
+      "journal": "TOSEM",
+      "author": "Dongjie He, Jingbo Lu, Jingling Xue",
+      "year": 2023,
+      "keywords": ["IFDS", "Taint Analysis", "scalability", "precision"],
+      "tools": ["Conch"],
+      "url":"https://www.cse.unsw.edu.au/~corg/tools/conch/"
+    },
+    {
+      "title": "Test Automation in Open-Source Android Apps: A Large-Scale Empirical Study",
+      "journal": "ASE",
+      "author": "Jun-Wei Lin, Navid Salehnamadi, Sam Malek",
+      "year": 2020,
+      "keywords": ["Empirical Study", "Automated Testing", "Mobile Apps", "Android"],
+      "tools": [""],
+      "url":""
+    },
+    {
+      "title": "Seven Reasons Why: An In-Depth Study of the Limitations of Random Test Input Generation for Android",
+      "journal": "ASE",
+      "author": "Farnaz Behrang, Alessandro Orso",
+      "year": 2020,
+      "keywords": ["Android UI testing", "test generation", "empirical study"],
+      "tools": [""],
+      "url":""
+    },
+    {
+      "title": "Test Automation in Open-Source Android Apps: A Large-Scale Empirical Study",
+      "journal": "ASE",
+      "author": "Jun-Wei Lin, Navid Salehnamadi, Sam Malek",
+      "year": 2020,
+      "keywords": ["Empirical Study", "Automated Testing", "Mobile Apps", "Android"],
+      "tools": [""],
+      "url":""
+    },
+    {
+      "title": "ReuNify: A Step Towards Whole Program Analysis for React Native Android Apps",
+      "journal": "ASE",
+      "author": "Yonghui Liu, Xiao Chen, Pei Liu, John Grundy, Chunyang Chen, Li Li",
+      "year": 2023,
+      "keywords": ["react native","mobile apps","static analysis"],
+      "tools": ["REUNIFY"],
+      "url":"https://github.com/DannyGooo/ReuNify"
+    },
+    {
+      "title": "ComboDroid: Generating High-Quality Test Inputs for Android Apps via Use Case Combinations",
+      "journal": "ICSE",
+      "author": "Jue Wang, Yanyan Jiang, Chang Xu, Chun Cao, Xiaoxing Ma, Jian Lu",
+      "year": 2020,
+      "keywords": ["software testing","mobile apps"],
+      "tools": ["ComboDroid"],
+      "url":"https://github.com/skull591/ComboDroid-Artifact"
+    },
+    {
+      "title": "Attention! Your Copied Data is Under Monitoring: A Systematic Study of Clipboard Usage in Android Apps",
+      "journal": "ICSE",
+      "author": "Yongliang Chen, Ruoqin Tang, Chaoshun Zuo, Xiaokuan Zhang, Lei Xue",
+      "year": 2024,
+      "keywords": ["program analysis","mobile security"],
+      "tools": ["ClipboardScope"],
+      "url":"https://github.com/CityuSeclab/ClipboardScope_open"
     }
   ]
 }

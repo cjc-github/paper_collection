@@ -59,6 +59,33 @@
         "keywords": ["Fuzzing tools", "Fuzzing test", "data flow"],
         "tools": ["datAFLow"],
         "url":"https://github.com/HexHive/datAFLow"
+      },
+      {
+        "title": "Green Fuzzer Benchmarking",
+        "journal": "ISSTA",
+        "author": "Jiradet Ounjai, Valentin Wüstholz, Maria Christakis",
+        "year": 2023,
+        "keywords": ["Fuzzing", "testing", "benchmarking"],
+        "tools": ["GreenBench"],
+        "url":"https://github.com/Rigorous-Software-Engineering/greenbench"
+      },
+      {
+        "title": "Rare Path Guided Fuzzing",
+        "journal": "ISSTA",
+        "author": "Seemanta Saha, Laboni Sarker, Md Shafiuzzaman, Chaofan Shou, Albert Li, Ganesh Sankaran, Tevfik Bultan",
+        "year": 2023,
+        "keywords": ["Fuzz testing", "Control flow analysis", "Model counting", "Probabilistic analysis", "Concolic execution"],
+        "tools": [""],
+        "url":""
+      },
+      {
+        "title": "Guiding Greybox Fuzzing with Mutation Testing",
+        "journal": "ISSTA",
+        "author": "Vasudev Vikram, Isabella Laybourn, Ao Li, Kelton OBrien, Rafaello Sanna, Rohan Padhye",
+        "year": 2023,
+        "keywords": ["Fuzz testing", "mutation testing", "test generation", "Java"],
+        "tools": ["Mu2"],
+        "url":"https://github.com/cmu-pasta/mu2"
       }
   ]
 }
