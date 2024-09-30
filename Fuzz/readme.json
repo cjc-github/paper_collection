@@ -86,6 +86,15 @@
         "keywords": ["Fuzz testing", "mutation testing", "test generation", "Java"],
         "tools": ["Mu2"],
         "url":"https://github.com/cmu-pasta/mu2"
+      },
+      {
+        "title": "Hopper: Interpretative Fuzzing for Libraries",
+        "journal": "CCS",
+        "author": "Peng Chen, Yuxuan Xie, Yunlong Lyu, Yuxiao Wang, Hao Chen",
+        "year": 2023,
+        "keywords": ["Fuzzing", "Vulnerability Detection", "Automaated Test Generation", "Interpreter", "Code Synthesis"],
+        "tools": ["Hopper"],
+        "url":""
       }
   ]
 }
