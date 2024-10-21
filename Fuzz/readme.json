@@ -95,6 +95,15 @@
         "keywords": ["Fuzzing", "Vulnerability Detection", "Automaated Test Generation", "Interpreter", "Code Synthesis"],
         "tools": ["Hopper"],
         "url":""
+      },
+      {
+        "title": "Fuzzing: A survey for roadmap",
+        "journal": "CSUR",
+        "author": "xiaogang zhu, sheng wen, shyit camtepe, yang xiang",
+        "year": 2022,
+        "keywords": ["Fuzz Testing", "Security", "Fuzzing Theory", "Input Space", "Automation"],
+        "tools": ["Hopper"],
+        "url":""
       }
   ]
 }
